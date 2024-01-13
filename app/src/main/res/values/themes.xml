@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Notify" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryDarker</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
+        <item name="colorSecondary">@color/primaryDark</item>
+        <item name="colorSecondaryVariant">@color/primaryDarker</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+    </style>
+
+    <style name="Theme.Notify" parent="Base.Theme.Notify" />
+</resources>
